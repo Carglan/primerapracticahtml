@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url("./Montserrat-Regular.otf");
+
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
