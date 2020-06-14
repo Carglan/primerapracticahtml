@@ -22,7 +22,7 @@ p{
     padding: 25px;
     padding-left: 80px;
     margin: 30px;
-    margin-right: 250px;
+    margin-right: 300px;
     
     font: italic 1.9em Georgia, "Times New Roman", Times, serif;
     color: #444444;
@@ -35,14 +35,14 @@ p{
 
 #elixirs{
     border: solid 2px #007e7e;
-    width: 222px;
+    width: 200px;
 
     padding: 0px 20px 20px 20px;
     margin: 0px 0px 0px 20px;
 
     text-align: center;
 
-    line-height: 1.1;
+    line-height: 1;
     background: url(Images/cocktail.gif) repeat-x;
 
     float: right;
