@@ -28,3 +28,62 @@ h2{
 blockquote{
     font-style: italic;
 }
+
+img{
+    float: right;
+    margin: 20px;
+    border: solid 5px #e99745;
+}
+
+table{
+    margin: 0 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th{
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+th{
+    background-color: #cc6600;
+}
+
+table table th{
+    background-color: white;
+}
+
+.Tony{
+    background-color: turquoise;
+}
+
+.Tess{
+    background-color: violet;
+}
+
+caption{
+    font-style: italic;
+    padding-top: 8px;
+}
+
+.cellColor{
+    background-color: rgb(190, 184, 184);
+}
+
+.leftAlligned{
+    text-align: left;
+    background-color: #e99745;
+}
+
+.rightAlligned{
+    text-align: right;
+}
+
+li {
+    list-style-image: url(images/backpack.gif);
+    padding-top: 5px;
+    margin-left: 20px;
+}
