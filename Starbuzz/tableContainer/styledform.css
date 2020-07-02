@@ -1,0 +1,59 @@
+h1, h2, nav {
+    background: #efe5d0;
+    border: thin dotted #7e7e7e 5px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+}
+
+nav a:link, nav a:visited{
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+  }
+
+h2 {
+    font-size: large;
+    color: #954b4b;
+}
+
+form {
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background: #efe5d0 url(images/background.gif) top left;
+    margin: 10px;
+    width: 700px;
+}
+
+form textarea {
+    width: 500px;
+    height: 200px;
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow p {
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+
+div.tablerow p:first-child {
+    text-align: right;
+}
+
+p.heading {
+    font-weight: bold;
+    text-align: center;
+}
