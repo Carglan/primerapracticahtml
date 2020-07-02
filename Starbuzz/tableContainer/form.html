@@ -23,11 +23,11 @@
             </p>
             <p>
                 <select name="beans">
-                <option value="House Blend">House Blend</option>
-                <option value="Bolivia">Shade Grown Bolivia Supremo</option>
-                <option value="Guatemala">Organic Guatemala</option>
-                <option value="Kenya">Kenya</option>
-                </select><br>
+                    <option value="House Blend">House Blend</option>
+                    <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+                    <option value="Guatemala">Organic Guatemala</option>
+                    <option value="Kenya">Kenya</option>
+                </select>
             </p>
         </div>
 
@@ -42,7 +42,7 @@
         <div class="tableRow">
             <p>Number of bags:</p>
             <p>
-                <input type="number" name="bags" min="1" max="10"><br>
+                <input type="number" name="bags" min="1" max="10" value="1"><br>
             </p>
         </div>
 
@@ -69,44 +69,44 @@
         <div class="tableRow">
             <p>Name:</p>
             <p>
-            <input type="text" name="name">
+            <input type="text" name="name" required placeholder="Mary Johnson">
             </p>
         </div>
         <div class="tableRow">
             <p>Address:</p>
             <p> 
-                <input type="text" name="address"><br>
+                <input type="text" name="address" required placeholder="P.Sherman 42"><br>
             </p>
         </div>
         <div class="tableRow">
             <p>City:</p>
             <p> 
-                <input type="text" name="city">
+                <input type="text" name="city" required placeholder="Los Angeles">
             </p>
         </div>
         <div class="tableRow">
             <p>State:</p>
             <p>
-                <input type="text" name="state">
+                <input type="text" name="state" required placeholder="California">
             </p>
         </div>
         <div class="tableRow">
             <p>Phone:</p>
             <p>
-                <input type="tel">
+                <input type="tel" placeholder="1132985476">
             </p>
         </div>
         <div class="tableRow">
             <p>Zip:</p> 
             <p>
-                <input type="number" name="zip">
+                <input type="number" name="zip" required placeholder="1425">
             </p>
         </div>
         
         <div class="tableRow">
             <p>Customer Comments:</p>
             <p>
-            <textarea name="comments"></textarea>
+            <textarea name="comments" placeholder="Leave any additional information here!"></textarea>
             </p>
         </div>
 
